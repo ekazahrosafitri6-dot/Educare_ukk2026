@@ -1,0 +1,53 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore vendor directory (if using Composer)
+vendor/
+
+# Ignore environment files
+.env
+.env.local
+.env.production
+
+# Ignore uploaded files
+uploads/
+files/
+
+# Ignore cache files
+cache/
+*.cache
+
+# Ignore database backups
+*.sql.backup
+*.db.backup
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore PHP specific
+composer.phar
+composer.lock (optional - remove this line if you want to commit composer.lock)
+
+# Ignore sensitive configuration files (uncomment if needed)
+# config/database.php
