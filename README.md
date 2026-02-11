@@ -1,30 +1,28 @@
 # EduCare - Sistem Pengaduan Sarana dan Prasarana Sekolah
 
-![EduCare Logo](https://img.shields.io/badge/EduCare-v1.0-blue.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1.svg)
-![License](https://img.shields.io/badge/License-Educational-green.svg)
 
-## 📋 Deskripsi
+## Deskripsi
 
 **EduCare** adalah sistem web berbasis PHP untuk mengelola pengaduan sarana dan prasarana sekolah. Sistem ini memungkinkan siswa untuk mengajukan aspirasi/keluhan terkait fasilitas sekolah, dan admin dapat mengelola, memantau, serta memberikan feedback terhadap pengaduan tersebut.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 🎓 Portal Siswa
+###  Portal Siswa
 - **Pengajuan Aspirasi**: Form mudah untuk mengajukan keluhan fasilitas
 - **Tracking Status**: Monitor progress aspirasi secara real-time
 - **History Timeline**: Riwayat lengkap aspirasi dengan timeline
 - **Feedback System**: Menerima feedback dari administrator
 
-### 👨‍💼 Panel Admin
+###  Panel Admin
 - **Dashboard Analytics**: Statistik dan visualisasi data aspirasi
 - **Manajemen Aspirasi**: CRUD lengkap dengan filter dan pencarian
 - **Master Data**: Kelola kategori dan lokasi fasilitas
 - **Sistem Laporan**: Export PDF dan Excel dengan formatting profesional
 - **Audit Trail**: Log lengkap perubahan data
 
-## 🛠️ Teknologi
+##  Teknologi
 
 - **Backend**: PHP 8.0+ dengan PDO
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
@@ -32,12 +30,12 @@
 - **Architecture**: MVC (Model-View-Controller)
 - **Security**: Password hashing, SQL injection prevention, XSS protection
 
-## 📦 Instalasi
+##  Instalasi
 
 ### Persyaratan Sistem
 - PHP 8.0 atau lebih tinggi
 - MySQL 5.7 atau lebih tinggi
-- Web Server (Apache/Nginx)
+- Web Server (Apache)
 - Composer (opsional, untuk PDF export)
 
 ### Langkah Instalasi
@@ -73,7 +71,7 @@
    php -S localhost:8000 -t public/
    ```
 
-## 🚀 Penggunaan
+## Penggunaan
 
 ### Akses Aplikasi
 - **Portal Siswa**: `http://localhost:8000/student`
@@ -84,7 +82,7 @@
 - **Username**: admin
 - **Password**: admin123
 
-## 📊 Database Schema
+## Database Schema
 
 Aplikasi menggunakan database `db_pengajuan` dengan tabel utama:
 - `admin` - Akun administrator
@@ -95,7 +93,7 @@ Aplikasi menggunakan database `db_pengajuan` dengan tabel utama:
 - `aspirasi` - Tracking aspirasi
 - `audit_trail` - Log perubahan
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 ├── config/                 # File konfigurasi
@@ -111,7 +109,7 @@ Aplikasi menggunakan database `db_pengajuan` dengan tabel utama:
 └── vendor/                # Composer dependencies
 ```
 
-## 🔧 Fitur Keamanan
+## Fitur Keamanan
 
 - **Session Management**: Autentikasi aman dengan timeout
 - **Prepared Statements**: Pencegahan SQL injection
@@ -119,32 +117,31 @@ Aplikasi menggunakan database `db_pengajuan` dengan tabel utama:
 - **Audit Trail**: Tracking lengkap perubahan data
 - **Password Hashing**: Enkripsi password yang aman
 
-## 📈 Status Aspirasi
+## Status Aspirasi
 
 - **Menunggu** - Menunggu review
 - **Proses** - Sedang ditangani
 - **Selesai** - Sudah diselesaikan
 
-## 🤝 Kontribusi
+## Kontribusi
 
-Project ini dikembangkan untuk tujuan edukasi. Kontribusi dan saran sangat diterima!
+Project ini dikembangkan untuk tujuan memenuhi penilaian Ujian Keahlihan Kopentensi. Kontribusi dan saran sangat diterima!
 
-## 📄 Lisensi
+## Lisensi
 
 Project ini dikembangkan untuk tujuan edukasi dan pembelajaran.
 
-## 👥 Tim Pengembang
+## Tim Pengembang
 
-- **Developer**: [Nama Anda]
-- **Project**: UKK 2026
-- **Institusi**: [Nama Sekolah/Institusi]
+- **Developer**: Eka zahro safitri
+- **Project**: Educare
 
-## 📞 Kontak
+## Kontak
 
 Jika ada pertanyaan atau masalah, silakan hubungi:
-- **Email**: [email@example.com]
+- **Email**: [ekazahrosafitri6@gmail.com]
 - **GitHub**: [@ekazahrosafitri6-dot](https://github.com/ekazahrosafitri6-dot)
 
 ---
 
-**EduCare - Membangun Komunikasi yang Lebih Baik Antara Siswa dan Sekolah** 🏫✨
+**EduCare - Membangun Komunikasi yang Lebih Baik Antara Siswa dan Sekolah** 
